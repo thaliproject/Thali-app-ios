@@ -5,7 +5,6 @@ Thali project.
 #### Building this project for iOS
 
 ##### Clone JXcore
-```
 `git clone https://github.com/jxcore/jxcore.git`
 or
 `git clone git@github.com:jxcore/jxcore.git`
