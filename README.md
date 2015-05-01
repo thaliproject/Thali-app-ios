@@ -12,8 +12,8 @@ document the process for others.
 * Python 2.6 or 2.7
 * GCC 4.2, or later
 * GNU make 3.81, or later
-* 'which' python module (sudo easy_install tools/which-1.1.0-py2.7.egg)  
-* Coffee 
+* 'which' python module (see below)
+* Coffee
 
 ##### Install setuptools
 Make sure you have [setuptools](https://pypi.python.org/pypi/setuptools) installed. The 
