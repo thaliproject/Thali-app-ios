@@ -1,21 +1,24 @@
 #Thali
 
 Thali project.
+
 #### Building this project for iOS
 The instructions below are based on ~/Code being your root folder. Adjust as needed.
+
 ##### Install latest Node.JS
 Follow the instructions at [https://nodejs.org/](https://nodejs.org/)
+
 ##### Install Cordova
 ```
 ~> sudo npm install -g cordova
 ```
 ##### Clone JXcore
 ```
-~Code> git clone https://github.com/jxcore/jxcore.git
+~/Code> git clone git@github.com:jxcore/jxcore.git
 ```
 or
 ```
-git clone git@github.com:jxcore/jxcore.git
+~/Code> git clone https://github.com/jxcore/jxcore.git
 ```
  
 ##### Build JXcore for iOS
@@ -24,8 +27,6 @@ git clone git@github.com:jxcore/jxcore.git
 ~/Code/jxcore ./build_scripts/ios_compile.sh
 ```
 
-##### Install latest Node.JS
-https://nodejs.org/
 
 Install Cordova
 sudo npm install -g cordova
