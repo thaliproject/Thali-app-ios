@@ -7,7 +7,7 @@ Thali project.
 The instructions below are based on ~/Code being your root folder. Adjust as needed.
 
 ##### Install latest Node.JS
-```Follow the instructions at https://nodejs.org/```
+Follow the instructions at [https://nodejs.org/](https://nodejs.org/)
 
 Install Cordova
 ~> sudo npm install -g cordova
