@@ -5,6 +5,16 @@ Thali project.
 #### Building this project for iOS
 The instructions below are based on ~/Code being your root folder. Adjust as needed.
 
+##### Prerequisites
+* Xcode 6
+* Coffee 
+
+##### Install setuptools
+Make sure you have [setuptools](https://pypi.python.org/pypi/setuptools) installed. The instructions on the site neglect to sudo, so the correct command line is:
+```
+curl https://bootstrap.pypa.io/ez_setup.py -o - | sudo python
+```
+
 ##### Install latest Node.JS
 Follow the instructions at [https://nodejs.org/](https://nodejs.org/)
 
@@ -25,6 +35,11 @@ or
 ```
 ~/Code cd jxcore
 ~/Code/jxcore ./build_scripts/ios_compile.sh
+```
+This will take a very long time. If the build fails with `import which`, then you will need to install easy_install
+
+```
+curl https://bootstrap.pypa.io/ez_setup.py -o - | sudo python
 ```
 
 
