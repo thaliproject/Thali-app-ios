@@ -44,10 +44,10 @@ v0.12.2
 ```
  
 ##### Build JXcore for iOS
-This will take a very, very long time (and is why coffee is a prerequisite). 
+This will take a very, very long time (and is why coffee is a prerequisite).     
 ```
-~/Code cd jxcore
-~/Code/jxcore ./build_scripts/ios_compile.sh
+~/Code> cd jxcore
+~/Code/jxcore> ./build_scripts/ios_compile.sh
 ```
 
 ##### Create your Cordova project
