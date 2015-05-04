@@ -12,7 +12,7 @@ document the process for others.
 * Python 2.6 or 2.7
 * GCC 4.2, or later
 * GNU make 3.81, or later
-* 'which' python module (see below)
+* 'which' Python module (see below)
 * Coffee
 
 ##### Install setuptools
@@ -20,7 +20,6 @@ Make sure you have [setuptools](https://pypi.python.org/pypi/setuptools) install
 instructions on the site neglect to sudo the python, so the correct command line is:
 ```
 ~> curl https://bootstrap.pypa.io/ez_setup.py -o - | sudo python
-~> sudo easy_install tools/which-1.1.0-py2.7.egg
 ```
 
 ##### Install latest Node.JS
@@ -42,11 +41,15 @@ v0.12.2
 ```
 ~/Code> git clone git@github.com:jxcore/jxcore.git
 ```
- 
+Once cloned, install the 'which' Python module:
+```
+~/Code> cd jxcore
+~> sudo easy_install tools/which-1.1.0-py2.7.egg
+```
+
 ##### Build JXcore for iOS
 This will take a very, very long time (and is why coffee is a prerequisite).     
 ```
-~/Code> cd jxcore
 ~/Code/jxcore> ./build_scripts/ios_compile.sh
 ```
 
